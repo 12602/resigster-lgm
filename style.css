@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Baloo+Tamma+2:wght@800&family=Bebas+Neue&family=Cinzel:wght@500&family=Pacifico&family=Paytone+One&family=Shadows+Into+Light&family=Vollkorn:ital,wght@1,500&display=swap');
+body
+{
+    font-family: 'Baloo Bhaijaan 2', cursive;;
+    background:linear-gradient(red,yellow);
+}
+h1
+{
+    text-align: center;
+    background-color: gold;
+}
+.form
+{
+    padding: 0px;
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background-color:whitesmoke;
+    font-size: 20px;
+}
+ tr
+{
+    height: 50px;
+} 
+ input
+{
+    height: 20px;
+
+} 
+.text
+{
+    position: absolute;
+    top:300px;
+    left: 700px;
+}
+#enroll
+{
+    position: absolute;
+    top:608px;
+    width: 200px;
+    left: 100px;
+}
+#enroll:hover
+{
+    background-color: white;
+}
+button
+{
+    background-color: gold;
+    color:red;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+#reset
+{
+
+    height: 30px;
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+    background-color: gold;
+    color: white;
+    width: 200px;
+color: red;
+}
+#reset:hover
+{
+    background-color: whitesmoke;
+}
+.description
+{
+ background-color:gold;
+ width: 300px;
+ padding: 20px;
+ display: block;
+ margin-bottom: 30;
+ margin-top: 30px;
+ 
+}
+
+#table2
+{
+    width: 400px;
+    
+    
+    padding: 20px;
+    position: absolute;
+  left: 700px;
+  top:200px;
+  background-color: chartreuse;
+  border: 2px solid black;
+
+}
+img
+{
+    height: 130px;
+    width: 200px;
+    border-radius:20px;
+}
+
+hr
+{
+    width: 200px;
+    background-color: red;
+}
+#table2 
+{
+    
+background-color:gold;
+font-weight: 700px;
+font-size:  30px;
+}

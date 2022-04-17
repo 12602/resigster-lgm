@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Page</title>
+</head>
+
+<body>
+
+    <h1>Student Enrollment Form</h1>
+    <div class="form">
+        <table>
+            <form action="" name="form">
+            <tr>
+                <td>Name:</td>
+            
+                <td><input type="text" name="userName" id="username" required >  
+              
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="Email" id="email" required></td>
+    
+            </tr>
+            <tr>
+                <td>Linkedin:</td>
+                <td><input type="text" name="Website" id="Website" required></td>
+            </tr>
+            <tr>
+                <td>Image Link:</td>
+                <td><input type="text" name="Image" id="image"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gen" id="gender" onclick="gen1()">Male 
+                    <input type="radio" name="gen" id="gender"onclick="gen2()">Female
+                 </td>
+            </tr>
+
+            <tr>
+                <td>Skills:</td>
+                <td>
+                    <input type="checkbox" name="skills" id="java"  onclick="validate()">Java
+                    <input type="checkbox" name="skills" id="skills" onclick="validate2()">Python
+                    <input type="checkbox" name="skills" id="skills" onclick="validate3()">C++
+                </td>
+
+
+            </tr>
+            <tr>
+                
+                <td>
+             
+                  <input id="reset" type="reset" value="Reset">
+                   
+                </td>
+
+
+            </tr>
+
+            </form>
+        </table>
+
+    </div>
+    <button id="enroll">Enroll Student </button>
+    <div class="table">
+<table id="table2">
+   <tr style="background-color: red;color: aliceblue;">
+       <td   style="text-align: center;">Description</td>
+    <td style="text-align:center ;">Image</td></tr>
+    <tr><td><hr></td><td><hr></td></tr>
+    <tr>
+        <td>Jatin <br>js223675@gmail.com <br>Male <br>Java</td>
+    <td><img src="/download.jpg" alt="" name="image"></td>
+   
+    </tr>
+
+</table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
